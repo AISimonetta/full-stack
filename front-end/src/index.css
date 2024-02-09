@@ -1,0 +1,11 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    padding: 25px;
+    font-family: 'Bebas Neue','Oxygen', sans-serif;
+}
