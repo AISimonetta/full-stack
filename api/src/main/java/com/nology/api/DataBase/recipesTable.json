@@ -1,0 +1,41 @@
+[
+  {
+  "recipe_id": 1,
+  "bread_id": 1,
+  "recipe_ingredients": "Active dry yeast, warm water, salt, sugar, bread flour, cornmeal",
+  "recipe_description": "Step 1: Make the dough\nIn a large bowl, dissolve the yeast in warm water. Add salt, sugar and 2 cups of flour. Beat until smooth. Stir in enough remaining flour to form a soft dough.\n\nStep 2: Knead the dough\nTurn the dough onto a floured surface. Knead it for six to eight minutes until it’s smooth and elastic. Place the dough in a greased bowl, turning once to grease the top. Cover and let rise in a warm place until doubled, about an hour.\n\nStep 3: Form the loaves\nUncover the dough and punch it down. Turn the dough onto a lightly floured surface and divide it in half. Shape the dough into two 12-inch long loaves.\n\nStep 4: Let it rise\nPlace the dough seam side down on a greased baking sheet. Cover and let it rise until doubled, about 30 minutes.\n\nStep 5: Prep the loaves\nPreheat the oven to 450°F. Sprinkle the loaves with cornmeal. With a sharp knife or baker’s lame, make four shallow slashes across the top of each loaf.\n\nStep 6: Bake the bread\nBake for 15 to 20 minutes or until golden brown. Cool on a wire rack. Brush the loaves with melted butter if you’d like.",
+  "recipe_nut-free": "yes",
+  "recipe_containsEgg": "no",
+  "recipe_containsFruit": "no"
+  },
+
+  {
+    "recipe_id": 2,
+    "bread_id": 2,
+    "recipe_ingredients": "2 packages (1/4 ounce each) active dry yeast, 3-1/4 cups warm water (110° to 115°), 1/4 cup bread flour,1/3 cup canola oil, 1/3 cup honey, 3 teaspoons salt,6-1/2 to 7-1/2 cups whole wheat flour,1/2 cup sunflower kernels,3 tablespoons butter, melted",
+    "recipe_description": "In a large bowl, dissolve yeast in warm water. Add the bread flour, oil, honey, salt and 4 cups whole wheat flour. Beat until smooth. Stir in sunflower kernels and enough remaining flour to form a firm dough.\nTurn onto a floured surface; knead until smooth and elastic, 6-8 minutes. Place in a greased bowl, turning once to grease the top. Cover and let rise in a warm place until doubled, about 1 hour.\nPunch dough down; divide into 3 portions. Shape into loaves; place in 3 greased 8x4-in. loaf pans. Cover and let rise until doubled, about 30 minutes.\nBake at 350° until golden brown, 35-40 minutes. Brush with melted butter. Remove from pans to wire racks to cool.",
+    "recipe_nut-free": "yes",
+    "recipe_containsEgg": "no",
+    "recipe_containsFruit": "no"
+  },
+
+  {
+    "recipe_id": 3,
+    "bread_id": 3,
+    "recipe_ingredients": "1-3/4 cups all-purpose flour,1-1/2 cups sugar,1 teaspoon baking soda,1/2 teaspoon salt,2 large eggs, room temperature,2 medium ripe bananas, mashed (1 cup),1/2 cup canola oil,1/4 cup plus 1 tablespoon buttermilk,1 teaspoon vanilla extract,1 cup chopped walnuts, optional",
+    "recipe_description": "Preheat oven to 350°. In a large bowl, stir together flour, sugar, baking soda and salt. In another bowl, combine the eggs, bananas, oil, buttermilk and vanilla; add to flour mixture, stirring just until combined. If desired, fold in nuts.\nPour into a greased or parchment-lined 9x5-in. loaf pan. Bake until a toothpick comes out clean, 1-1/4 to 1-1/2 hours. Cool in pan for 15 minutes before removing to a wire rack.",
+    "recipe_nut-free": "yes",
+    "recipe_containsEgg": "yes",
+    "recipe_containsFruit": "yes"
+  },
+
+  {
+    "recipe_id": 4,
+    "bread_id": 4,
+    "recipe_ingredients": "",
+    "recipe_description": "",
+    "recipe_nut-free": "",
+    "recipe_containsEgg": "",
+    "recipe_containsFruit": ""
+  }
+]
