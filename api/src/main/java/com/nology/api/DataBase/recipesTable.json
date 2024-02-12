@@ -8,7 +8,6 @@
   "recipe_containsEgg": "no",
   "recipe_containsFruit": "no"
   },
-
   {
     "recipe_id": 2,
     "bread_id": 2,
@@ -18,7 +17,6 @@
     "recipe_containsEgg": "no",
     "recipe_containsFruit": "no"
   },
-
   {
     "recipe_id": 3,
     "bread_id": 3,
@@ -28,14 +26,67 @@
     "recipe_containsEgg": "yes",
     "recipe_containsFruit": "yes"
   },
-
   {
     "recipe_id": 4,
     "bread_id": 4,
-    "recipe_ingredients": "",
-    "recipe_description": "",
-    "recipe_nut-free": "",
-    "recipe_containsEgg": "",
-    "recipe_containsFruit": ""
+    "recipe_ingredients": "2 to 2-1/2 cups all-purpose flour,2 tablespoons sugar,1 package (1/4 ounce) quick-rise yeast,1/2 teaspoon salt,3/4 cup warm water (120° to 130°),2 tablespoons plus 4 teaspoons butter, melted, divided,3/4 cup shredded sharp cheddar cheese,2 teaspoons honey,1/8 teaspoon garlic salt",
+    "recipe_description": "In a large bowl, combine 1-1/2 cups flour, sugar, yeast and salt. Add water and 2 tablespoons butter; beat on medium speed for 3 minutes or until smooth. Stir in cheese and enough remaining flour to form a soft dough.\nTurn onto a lightly floured surface; knead until smooth and elastic, 4-6 minutes. Cover and let rest for 10 minutes. Divide into 13 pieces. Shape each into a ball. Place in a greased 9-in. round baking pan. Cover and let rise in a warm place until doubled, about 30 minutes.\nPreheat oven to 375°. Bake rolls 11-14 minutes or until lightly browned. Combine honey, garlic salt and remaining butter; brush over rolls. Remove from pan to a wire rack.",
+    "recipe_nut-free": "yes",
+    "recipe_containsEgg": "no",
+    "recipe_containsFruit": "no"
+  },
+  {
+    "recipe_id": 5,
+    "bread_id": 5,
+    "recipe_ingredients": "2/3 cup butter, softened, 1 cup sugar, 3 large eggs, room temperature, 1-2/3 cups 2% milk,2-1/3 cups all-purpose flour,1 cup cornmeal,4-1/2 teaspoons baking powder,1 teaspoon salt",
+    "recipe_description": "Preheat oven to 400°. In a large bowl, cream butter and sugar until light and fluffy, 5-7 minutes. Combine eggs and milk. Combine flour, cornmeal, baking powder and salt; add to creamed mixture alternately with egg mixture.\nPour into a greased 13x9-in. baking pan. Bake for 22-27 minutes or until a toothpick inserted in center comes out clean. Cut into squares; serve warm.",
+    "recipe_nut-free": "yes",
+    "recipe_containsEgg": "yes",
+    "recipe_containsFruit": "no"
+  },
+  {
+    "recipe_id": 6,
+    "bread_id": 6,
+    "recipe_ingredients": "2 cups water,1 cup quick-cooking oats,3 tablespoons butter,1 package (1/4 ounce) active dry yeast,1/3 cup warm water (110° to 115°),1/3 cup packed brown sugar,1 tablespoon sugar,1-1/2 teaspoons salt,4-3/4 to 5-1/4 cups all-purpose flour",
+    "recipe_description": "In a large saucepan, bring water to a boil; add oats and butter. Cook and stir for 1 minute. Remove from the heat; cool to lukewarm.\nIn a large bowl, dissolve yeast in warm water. Add the oat mixture, sugars, salt and 4 cups flour; beat until smooth. Add enough remaining flour to form a soft dough.\nTurn onto a floured surface; knead until smooth and elastic, 6-8 minutes. Place in a greased bowl, turning once to grease top. Cover and let rise in a warm place until doubled, about 1 hour.\nPunch dough down; allow to rest for 10 minutes. Shape into 18 balls. Place in 2 greased 9-in. round baking pans. Cover and let rise until doubled, about 45 minutes.\nPreheat oven to 350°; bake rolls until golden brown, 20-25 minutes. Remove from pans to wire racks.",
+    "recipe_nut-free": "yes",
+    "recipe_containsEgg": "no",
+    "recipe_containsFruit": "no"
+  },
+  {
+    "recipe_id": 7,
+    "bread_id": 7,
+    "recipe_ingredients": "3 large eggs, room temperature,1-1/2 cups sugar,3/4 cup vegetable oil,1 teaspoon vanilla extract,3 cups all-purpose flour,2 teaspoons baking powder,2 teaspoons ground cinnamon,1 teaspoon baking soda,1 teaspoon salt,4 cups finely chopped peeled ripe pears (about 4 medium),1 teaspoon lemon juice,1 cup chopped walnuts",
+    "recipe_description": "In a bowl, combine the eggs, sugar, oil and vanilla; mix well. Combine flour, baking powder, cinnamon, baking soda and salt; stir into the egg mixture just until moistened. Toss pears with lemon juice. Stir pears and walnuts into batter (batter will be thick).\nSpoon into 2 greased 9x5-in. loaf pans. Bake at 350° for 55-60 minutes or until a toothpick inserted in the center comes out clean. Cool for 10 minutes before removing from pans to wire racks.",
+    "recipe_nut-free": "yes",
+    "recipe_containsEgg": "yes",
+    "recipe_containsFruit": "yes"
+  },
+  {
+    "recipe_id":8,
+    "bread_id": 8,
+    "recipe_ingredients": "1 package (1/4 ounce) active dry yeast,2 cups warm water (110° to 115°),1 teaspoon sugar,2 teaspoons salt,5-1/2 cups all-purpose flour",
+    "recipe_description": "In a large bowl, dissolve yeast in warm water. Add the sugar, salt and 3 cups flour. Beat on medium speed for 3 minutes. Stir in remaining flour to form a soft dough.\nTurn onto a floured surface; knead until smooth and elastic, 6-8 minutes. Place in a greased bowl, turning once to grease the top. Cover and let rise in a warm place until doubled, about 1 hour.\nPunch dough down. Turn onto a floured surface; divide in half. Shape each portion into a loaf. Place each loaf seam side down on a greased baking sheet. Cover and let rise until doubled, about 30 minutes.\nMeanwhile, preheat oven to 400°. With a sharp knife, make 4 shallow slashes across top of each loaf. Bake 20-25 minutes or until golden brown. Remove from pans to wire racks to cool.\n",
+    "recipe_nut-free": "yes",
+    "recipe_containsEgg": "no",
+    "recipe_containsFruit": "no"
+  },
+  {
+    "recipe_id":9,
+    "bread_id": 9,
+    "recipe_ingredients": "1/3 cup butter melted,1 cup sugar,3 tablespoons lemon juice,2 large eggs, room temperature,1-1/2 cups all-purpose flour,1 teaspoon baking powder,1/2 teaspoon salt,1/2 cup 2% milk,1 cup fresh or frozen blueberries,1/2 cup chopped nuts,2 tablespoons grated lemon zest",
+    "recipe_description": "In a large bowl, beat the butter, sugar, lemon juice and eggs. Combine the flour, baking powder and salt; stir into egg mixture alternately with milk, beating well after each addition. Fold in the blueberries, nuts and lemon zest.\nTransfer to a greased 8x4-in. loaf pan. Bake at 350° for 60-70 minutes or until a toothpick inserted in the center comes out clean. Cool for 10 minutes before removing from pan to a wire rack.\nCombine glaze ingredients; drizzle over warm bread. Cool completely.",
+    "recipe_nut-free": "yes",
+    "recipe_containsEgg": "yes",
+    "recipe_containsFruit": "yes"
+  },
+  {
+    "recipe_id":10,
+    "bread_id": 10,
+    "recipe_ingredients": "1/3 cup butter melted,1 cup sugar,3 tablespoons lemon juice,2 large eggs, room temperature,1-1/2 cups all-purpose flour,1 teaspoon baking powder,1/2 teaspoon salt,1/2 cup 2% milk,1 cup fresh or frozen blueberries,1/2 cup chopped nuts,2 tablespoons grated lemon zest",
+    "recipe_description": "In a large bowl, beat the butter, sugar, lemon juice and eggs. Combine the flour, baking powder and salt; stir into egg mixture alternately with milk, beating well after each addition. Fold in the blueberries, nuts and lemon zest.\nTransfer to a greased 8x4-in. loaf pan. Bake at 350° for 60-70 minutes or until a toothpick inserted in the center comes out clean. Cool for 10 minutes before removing from pan to a wire rack.\nCombine glaze ingredients; drizzle over warm bread. Cool completely.",
+    "recipe_nut-free": "yes",
+    "recipe_containsEgg": "yes",
+    "recipe_containsFruit": "yes"
   }
 ]
