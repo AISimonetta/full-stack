@@ -1,0 +1,69 @@
+@use "../../styles/variables" as *;
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: $clr-off-white;
+    color:$clr-black;
+    height: 60px;
+    margin-bottom: 15px;
+    padding-top: 15px;
+
+    &__brandName {
+        font-size: 20px;
+        font-family: "Caveat";
+        margin: 0 0;
+        letter-spacing: -1px;
+        padding-top: 10px;
+    }
+
+    &__links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        font-family: "sen";
+        width: 100vw;
+        margin-bottom: 25px;
+    }
+
+    a {
+        color: $clr-black;
+        text-decoration: none;
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+        height: 60px;
+        margin-top: 10px;
+
+        &__brandName {
+            font-size: 26px;
+            font-family: "Caveat";
+            margin: 0 0;
+            letter-spacing: -1px;
+            padding-top: 10px;
+        }
+
+        &__links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            font-family: "sen";
+            width: 100vw;
+            margin-bottom: 40px;
+        }
+
+        a {
+            color: $clr-black;
+            text-decoration: none;
+            font-size: 16px;
+        }
+    }
+}
