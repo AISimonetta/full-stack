@@ -1,8 +1,24 @@
+import { FormEventHandler } from "react";
 import "./SearchBox.scss"
 
-const SearchBox = () => {
+
+type SearchBoxProps = {
+  searchName: string;
+  handleInput: FormEventHandler<HTMLInputElement>;
+}
+
+const SearchBox = ({ searchName, handleInput }: SearchBoxProps) => {
   return (
-    <div>SearchBox</div>
+      <div className="searchByName">
+      <input
+        name="searchName"
+        type="text"
+        value={searchName}
+        onChange={handleInput}
+        className="searchByName__input"
+        placeholder=" Search bread recipes by name "
+      />
+    </div>
   )
 }
 

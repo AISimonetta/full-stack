@@ -1,7 +1,14 @@
+import { FormEventHandler } from "react";
 import "./FilterRecipes.scss"
 
-export const FilterRecipes = () => {
+type FilterRecipesprops = {
+
+}
+
+export const FilterRecipes = ({}: FilterRecipesprops) => {
   return (
-    <div>FilterRecipes</div>
+    <div>
+
+    </div>
   )
 }
