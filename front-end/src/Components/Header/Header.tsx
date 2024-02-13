@@ -1,6 +1,7 @@
 import "./Header.scss"
 
 
+
 const header = () => {
   return (
     <div className="header">
@@ -8,9 +9,9 @@ const header = () => {
       <p >Nona's Homemade Bread</p>
       </div>
       <div className="header__links">
-        <div>
+        {/* <div>
           <a className="header__recipes" href="#">| Recipes |</a>
-        </div>
+        </div> */}
         <div>
           <a className="header__addYourRecipes" href="#">| Add your recipe |</a>
         </div>

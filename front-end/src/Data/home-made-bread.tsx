@@ -11,9 +11,8 @@
 // Table = Recipes
 // recipe_id // PK //NUMBER
 // bread_id // FK //NUMBER
-// recipe_title // STRING
 // recipe_description // STRING
-// recipe_nutfree // BOOLEAN
-// recipe_containsEgg // BOOLEAN
-// recipe_containsFruit //BOOLEAN
+// recipe_nutfree // string
+// recipe_containsEgg // string
+// recipe_containsFruit //string
 // "

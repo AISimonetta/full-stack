@@ -1,0 +1,16 @@
+.searchByName__input {
+    border-radius: 5px;
+    width: 200px;
+    border: none;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    font-family: "sen";
+}
+
+@media screen and (min-width: 768px) {
+
+    .searchByName__input {
+        margin: 0 15px;
+    }
+
+}

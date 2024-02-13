@@ -5,6 +5,7 @@ import "./SearchBox.scss"
 type SearchBoxProps = {
   searchName: string;
   handleInput: FormEventHandler<HTMLInputElement>;
+
 }
 
 const SearchBox = ({ searchName, handleInput }: SearchBoxProps) => {
