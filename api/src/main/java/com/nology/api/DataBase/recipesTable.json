@@ -4,7 +4,7 @@
   "bread_id": 1,
   "recipe_ingredients": "Active dry yeast, warm water, salt, sugar, bread flour, cornmeal",
   "recipe_description": "Step 1: Make the dough\nIn a large bowl, dissolve the yeast in warm water. Add salt, sugar and 2 cups of flour. Beat until smooth. Stir in enough remaining flour to form a soft dough.\n\nStep 2: Knead the dough\nTurn the dough onto a floured surface. Knead it for six to eight minutes until it’s smooth and elastic. Place the dough in a greased bowl, turning once to grease the top. Cover and let rise in a warm place until doubled, about an hour.\n\nStep 3: Form the loaves\nUncover the dough and punch it down. Turn the dough onto a lightly floured surface and divide it in half. Shape the dough into two 12-inch long loaves.\n\nStep 4: Let it rise\nPlace the dough seam side down on a greased baking sheet. Cover and let it rise until doubled, about 30 minutes.\n\nStep 5: Prep the loaves\nPreheat the oven to 450°F. Sprinkle the loaves with cornmeal. With a sharp knife or baker’s lame, make four shallow slashes across the top of each loaf.\n\nStep 6: Bake the bread\nBake for 15 to 20 minutes or until golden brown. Cool on a wire rack. Brush the loaves with melted butter if you’d like.",
-  "recipe_nut-free": true,
+  "recipe_nut_free": true,
   "recipe_containsEgg": false,
   "recipe_containsFruit": false
   },
@@ -13,7 +13,7 @@
     "bread_id": 2,
     "recipe_ingredients": "2 packages (1/4 ounce each) active dry yeast, 3-1/4 cups warm water (110° to 115°), 1/4 cup bread flour,1/3 cup canola oil, 1/3 cup honey, 3 teaspoons salt,6-1/2 to 7-1/2 cups whole wheat flour,1/2 cup sunflower kernels,3 tablespoons butter, melted",
     "recipe_description": "In a large bowl, dissolve yeast in warm water. Add the bread flour, oil, honey, salt and 4 cups whole wheat flour. Beat until smooth. Stir in sunflower kernels and enough remaining flour to form a firm dough.\nTurn onto a floured surface; knead until smooth and elastic, 6-8 minutes. Place in a greased bowl, turning once to grease the top. Cover and let rise in a warm place until doubled, about 1 hour.\nPunch dough down; divide into 3 portions. Shape into loaves; place in 3 greased 8x4-in. loaf pans. Cover and let rise until doubled, about 30 minutes.\nBake at 350° until golden brown, 35-40 minutes. Brush with melted butter. Remove from pans to wire racks to cool.",
-    "recipe_nut-free": true,
+    "recipe_nut_free": true,
     "recipe_containsEgg": false,
     "recipe_containsFruit": false
   },
@@ -22,7 +22,7 @@
     "bread_id": 3,
     "recipe_ingredients": "1-3/4 cups all-purpose flour,1-1/2 cups sugar,1 teaspoon baking soda,1/2 teaspoon salt,2 large eggs, room temperature,2 medium ripe bananas, mashed (1 cup),1/2 cup canola oil,1/4 cup plus 1 tablespoon buttermilk,1 teaspoon vanilla extract,1 cup chopped walnuts, optional",
     "recipe_description": "Preheat oven to 350°. In a large bowl, stir together flour, sugar, baking soda and salt. In another bowl, combine the eggs, bananas, oil, buttermilk and vanilla; add to flour mixture, stirring just until combined. If desired, fold in nuts.\nPour into a greased or parchment-lined 9x5-in. loaf pan. Bake until a toothpick comes out clean, 1-1/4 to 1-1/2 hours. Cool in pan for 15 minutes before removing to a wire rack.",
-    "recipe_nut-free": true,
+    "recipe_nut_free": true,
     "recipe_containsEgg": true,
     "recipe_containsFruit": true
   },
@@ -31,7 +31,7 @@
     "bread_id": 4,
     "recipe_ingredients": "2 to 2-1/2 cups all-purpose flour,2 tablespoons sugar,1 package (1/4 ounce) quick-rise yeast,1/2 teaspoon salt,3/4 cup warm water (120° to 130°),2 tablespoons plus 4 teaspoons butter, melted, divided,3/4 cup shredded sharp cheddar cheese,2 teaspoons honey,1/8 teaspoon garlic salt",
     "recipe_description": "In a large bowl, combine 1-1/2 cups flour, sugar, yeast and salt. Add water and 2 tablespoons butter; beat on medium speed for 3 minutes or until smooth. Stir in cheese and enough remaining flour to form a soft dough.\nTurn onto a lightly floured surface; knead until smooth and elastic, 4-6 minutes. Cover and let rest for 10 minutes. Divide into 13 pieces. Shape each into a ball. Place in a greased 9-in. round baking pan. Cover and let rise in a warm place until doubled, about 30 minutes.\nPreheat oven to 375°. Bake rolls 11-14 minutes or until lightly browned. Combine honey, garlic salt and remaining butter; brush over rolls. Remove from pan to a wire rack.",
-    "recipe_nut-free": true,
+    "recipe_nut_free": true,
     "recipe_containsEgg": false,
     "recipe_containsFruit": false
   },
@@ -40,7 +40,7 @@
     "bread_id": 5,
     "recipe_ingredients": "2/3 cup butter, softened, 1 cup sugar, 3 large eggs, room temperature, 1-2/3 cups 2% milk,2-1/3 cups all-purpose flour,1 cup cornmeal,4-1/2 teaspoons baking powder,1 teaspoon salt",
     "recipe_description": "Preheat oven to 400°. In a large bowl, cream butter and sugar until light and fluffy, 5-7 minutes. Combine eggs and milk. Combine flour, cornmeal, baking powder and salt; add to creamed mixture alternately with egg mixture.\nPour into a greased 13x9-in. baking pan. Bake for 22-27 minutes or until a toothpick inserted in center comes out clean. Cut into squares; serve warm.",
-    "recipe_nut-free": true,
+    "recipe_nut_free": true,
     "recipe_containsEgg": true,
     "recipe_containsFruit": false
   },
@@ -49,7 +49,7 @@
     "bread_id": 6,
     "recipe_ingredients": "2 cups water,1 cup quick-cooking oats,3 tablespoons butter,1 package (1/4 ounce) active dry yeast,1/3 cup warm water (110° to 115°),1/3 cup packed brown sugar,1 tablespoon sugar,1-1/2 teaspoons salt,4-3/4 to 5-1/4 cups all-purpose flour",
     "recipe_description": "In a large saucepan, bring water to a boil; add oats and butter. Cook and stir for 1 minute. Remove from the heat; cool to lukewarm.\nIn a large bowl, dissolve yeast in warm water. Add the oat mixture, sugars, salt and 4 cups flour; beat until smooth. Add enough remaining flour to form a soft dough.\nTurn onto a floured surface; knead until smooth and elastic, 6-8 minutes. Place in a greased bowl, turning once to grease top. Cover and let rise in a warm place until doubled, about 1 hour.\nPunch dough down; allow to rest for 10 minutes. Shape into 18 balls. Place in 2 greased 9-in. round baking pans. Cover and let rise until doubled, about 45 minutes.\nPreheat oven to 350°; bake rolls until golden brown, 20-25 minutes. Remove from pans to wire racks.",
-    "recipe_nut-free": "yes",
+    "recipe_nut_free": "yes",
     "recipe_containsEgg": "no",
     "recipe_containsFruit": "no"
   },
@@ -58,7 +58,7 @@
     "bread_id": 7,
     "recipe_ingredients": "3 large eggs, room temperature,1-1/2 cups sugar,3/4 cup vegetable oil,1 teaspoon vanilla extract,3 cups all-purpose flour,2 teaspoons baking powder,2 teaspoons ground cinnamon,1 teaspoon baking soda,1 teaspoon salt,4 cups finely chopped peeled ripe pears (about 4 medium),1 teaspoon lemon juice,1 cup chopped walnuts",
     "recipe_description": "In a bowl, combine the eggs, sugar, oil and vanilla; mix well. Combine flour, baking powder, cinnamon, baking soda and salt; stir into the egg mixture just until moistened. Toss pears with lemon juice. Stir pears and walnuts into batter (batter will be thick).\nSpoon into 2 greased 9x5-in. loaf pans. Bake at 350° for 55-60 minutes or until a toothpick inserted in the center comes out clean. Cool for 10 minutes before removing from pans to wire racks.",
-    "recipe_nut-free": true,
+    "recipe_nut_free": true,
     "recipe_containsEgg": true,
     "recipe_containsFruit": true
   },
@@ -67,7 +67,7 @@
     "bread_id": 8,
     "recipe_ingredients": "1 package (1/4 ounce) active dry yeast,2 cups warm water (110° to 115°),1 teaspoon sugar,2 teaspoons salt,5-1/2 cups all-purpose flour",
     "recipe_description": "In a large bowl, dissolve yeast in warm water. Add the sugar, salt and 3 cups flour. Beat on medium speed for 3 minutes. Stir in remaining flour to form a soft dough.\nTurn onto a floured surface; knead until smooth and elastic, 6-8 minutes. Place in a greased bowl, turning once to grease the top. Cover and let rise in a warm place until doubled, about 1 hour.\nPunch dough down. Turn onto a floured surface; divide in half. Shape each portion into a loaf. Place each loaf seam side down on a greased baking sheet. Cover and let rise until doubled, about 30 minutes.\nMeanwhile, preheat oven to 400°. With a sharp knife, make 4 shallow slashes across top of each loaf. Bake 20-25 minutes or until golden brown. Remove from pans to wire racks to cool.\n",
-    "recipe_nut-free": true,
+    "recipe_nut_free": true,
     "recipe_containsEgg": false,
     "recipe_containsFruit": false
   },
@@ -76,7 +76,7 @@
     "bread_id": 9,
     "recipe_ingredients": "1/3 cup butter melted,1 cup sugar,3 tablespoons lemon juice,2 large eggs, room temperature,1-1/2 cups all-purpose flour,1 teaspoon baking powder,1/2 teaspoon salt,1/2 cup 2% milk,1 cup fresh or frozen blueberries,1/2 cup chopped nuts,2 tablespoons grated lemon zest",
     "recipe_description": "In a large bowl, beat the butter, sugar, lemon juice and eggs. Combine the flour, baking powder and salt; stir into egg mixture alternately with milk, beating well after each addition. Fold in the blueberries, nuts and lemon zest.\nTransfer to a greased 8x4-in. loaf pan. Bake at 350° for 60-70 minutes or until a toothpick inserted in the center comes out clean. Cool for 10 minutes before removing from pan to a wire rack.\nCombine glaze ingredients; drizzle over warm bread. Cool completely.",
-    "recipe_nut-free": true,
+    "recipe_nut_free": true,
     "recipe_containsEgg": true,
     "recipe_containsFruit": true
   },
@@ -85,7 +85,7 @@
     "bread_id": 10,
     "recipe_ingredients": "1-1/2 teaspoons active dry yeast,1-3/4 cups warm water (110° to 115°),3-1/2 cups plus 1 tablespoon all-purpose flour: divided,2 teaspoons salt,1 tablespoon cornmeal or additional flour",
     "recipe_description": "In a large bowl, dissolve yeast in warm water. Using a rubber spatula, stir in 3-1/2 cups flour and salt to form a soft, sticky dough. Do not knead. Cover and let rise at room temperature 1 hour.\nStir down dough (dough will be sticky). Turn onto a floured surface; with floured hands pat into a 9-in. square. Fold square into thirds, forming a 9x3-in. rectangle. Fold rectangle into thirds, forming a 3-in. square. Place in a large greased bowl, turning once to grease the top. Cover and let rise at room temperature until almost doubled, about 1 hour.\nPunch down dough and repeat folding process. Return dough to bowl; refrigerate, covered, overnight.\nGrease the bottom of a disposable foil roasting pan with sides at least 4 in. high; dust pan with cornmeal. Turn dough onto a floured surface. Knead gently 6-8 times; shape into a 6-in. round loaf. Place into prepared pan; dust top with remaining 1 tablespoon flour. Cover pan and let rise at room temperature until dough expands to a 7-1/2-in. loaf, about 1-1/4 hours.\nPreheat oven to 500°. Using a sharp knife, make a slash (1/4 in. deep) across top of loaf. Cover pan tightly with foil. Bake on lowest oven rack 25 minutes.\nReduce oven setting to 450°. Remove foil; bake bread until deep golden brown, 25-30 minutes. Remove loaf to a wire rack to cool.",
-    "recipe_nut-free": true,
+    "recipe_nut_free": true,
     "recipe_containsEgg": false,
     "recipe_containsFruit": false
   },
@@ -94,7 +94,7 @@
     "bread_id": 11,
     "recipe_ingredients": "3 cups all-purpose flour,2 cups sugar,2 teaspoons ground cinnamon,1 teaspoon baking soda,1/2 teaspoon baking powder,1/2 teaspoon salt,4 large eggs, room temperature,1 cup canola oil,1/2 teaspoon vanilla extract, 2 cups chopped peeled apples (about 2 medium),1 cup coarsely chopped walnuts",
     "recipe_description": "Preheat oven to 350°. Line 2 greased 8x4-in. loaf pans with parchment; grease paper.\nWhisk together first 6 ingredients. In another bowl, whisk together eggs, oil and vanilla; add to flour mixture, stirring just until moistened (batter will be thick). Fold in apples and walnuts.\nTransfer to prepared pans. Bake until a toothpick inserted in each center comes out clean, 50-55 minutes. Cool in pans 10 minutes before removing to wire racks to cool.",
-    "recipe_nut-free": true,
+    "recipe_nut_free": true,
     "recipe_containsEgg": true,
     "recipe_containsFruit": true
   },
@@ -103,7 +103,7 @@
     "bread_id": 12,
     "recipe_ingredients": "4-1/2 teaspoons active dry yeast,1/2 cup warm water (110° to 115°),2 cups warm 2% milk (110° to 115°),6 tablespoons shortening,2 large eggs, room temperature,1/4 cup sugar,1-1/2 teaspoons salt,7 to 7-1/2 cups all-purpose flour",
     "recipe_description": "In a large bowl, dissolve yeast in warm water. Add the milk, shortening, eggs, sugar, salt and 3 cups flour. Beat until smooth. Stir in enough remaining flour to form a soft dough.\nTurn onto a floured surface; knead until smooth and elastic, about 6-8 minutes (dough will be sticky). Place in a greased bowl, turning once to grease top. Cover and let rise in a warm place until doubled, about 1 hour.\nPunch dough down. Turn onto a lightly floured surface; divide into 24 pieces. Shape each into a roll. Place 2 in. apart on greased baking sheets. Cover and let rise until doubled, about 30 minutes.\nBake at 350° for 20-25 minutes or until golden brown. Remove to wire racks.\n",
-    "recipe_nut-free": true,
+    "recipe_nut_free": true,
     "recipe_containsEgg": true,
     "recipe_containsFruit": false
   },
@@ -112,7 +112,7 @@
     "bread_id": 13,
     "recipe_ingredients": "1/2 cup cold butter, cubed,2 cups self-rising flour,3/4 cup buttermilk,Melted butter",
     "recipe_description": "In a large bowl, cut butter into flour until mixture resembles coarse crumbs. Stir in buttermilk just until moistened. Turn onto a lightly floured surface; knead 3-4 times. Pat or lightly roll to 3/4-in. thickness. Cut with a floured 2-1/2-in. biscuit cutter.\nPlace on a greased baking sheet. Bake at 425° until golden brown, 11-13 minutes. Brush tops with butter. Serve warm.",
-    "recipe_nut-free": true,
+    "recipe_nut_free": true,
     "recipe_containsEgg": false,
     "recipe_containsFruit": false
   },
@@ -121,7 +121,7 @@
     "bread_id": 14,
     "recipe_ingredients": "1/4 cup butter, melted,1 tablespoon dried parsley flakes,1 teaspoon garlic powder,1/4 teaspoon garlic salt.1 loaf (1 pound) frozen white bread dough, thawed",
     "recipe_description": "In a small bowl, combine the butter, parsley, garlic powder and garlic salt. Cut dough into 1-in. pieces; dip into butter mixture. Layer in a greased 9x5-in. loaf pan. Cover and let rise until doubled, about 1 hour.\nBake at 350° for 30 minutes or until golden brown.\n",
-    "recipe_nut-free": true,
+    "recipe_nut_free": true,
     "recipe_containsEgg": false,
     "recipe_containsFruit": false
   },
@@ -130,7 +130,7 @@
     "bread_id": 15,
     "recipe_ingredients": "2 packages (1/4 ounce each ) active dry yeast,1 cup warm 2% milk (110° to 115°),1/3 cup butter, softened,1/2 cup sugar,1 cup canned pumpkin,3 large eggs, room temperature, divided use,1-1/2 teaspoons salt,5-1/2 to 6 cups all-purpose flour,1 tablespoon cold water,Sesame or poppy seeds, optional",
     "recipe_description": "In a bowl, dissolve yeast in warm milk. Add the butter, sugar, pumpkin, 2 eggs, salt and 3 cups flour. Beat until smooth. Stir in enough remaining flour to form a soft dough. Turn onto a lightly floured surface; knead until smooth and elastic, 6-8 minutes. Place dough in a greased bowl, turning once to grease top. Cover and let rise in a warm place until doubled, about 1 hour.\nPunch dough down. Turn onto a lightly floured surface; divide in half. Shape each portion into 12 balls. Roll each ball into a 10-in. rope; tie into a knot and tuck ends under. Place 2 in. apart on greased baking sheets. Cover and let rise until doubled, about 30 minutes.\nIn a small bowl, beat water and remaining egg. Brush over rolls. Sprinkle with sesame or poppy seeds if desired. Bake at 350° for 15-17 minutes or until golden brown. Remove from pans to wire racks.",
-    "recipe_nut-free": false,
+    "recipe_nut_free": false,
     "recipe_containsEgg": true,
     "recipe_containsFruit": false
   },
@@ -139,7 +139,7 @@
     "bread_id": 16,
     "recipe_ingredients": "2 cups all-purpose flour,2 teaspoons baking powder,1/2 teaspoon baking soda,1/2 teaspoon salt,1 cup sugar,1 cup sour cream,2 large eggs, room temperature,3 teaspoons vanilla extract,1-1/2 cups chopped peeled Granny Smith apples,1-1/4 cups chopped pecans, toasted, divided,1/2 cup butter, cubed,1/2 cup packed brown sugar",
     "recipe_description": "Preheat oven to 350°. In a large bowl, mix flour, baking powder, baking soda and salt. In another bowl, beat sugar, sour cream, eggs and vanilla until well blended. Stir into flour mixture just until moistened. Fold in apples and 1 cup pecans.\nTransfer to a greased 9x5-in. loaf pan. Bake until a toothpick inserted in center comes out clean, 50-55 minutes. Cool in pan 10 minutes. Remove to a wire rack to cool completely.\nIn a small saucepan, combine butter and brown sugar. Bring to a boil, stirring constantly to dissolve sugar; boil 1 minute. Working quickly, pour over cooled bread. Sprinkle with remaining pecans; let stand until set.",
-    "recipe_nut-free": false,
+    "recipe_nut_free": false,
     "recipe_containsEgg": true,
     "recipe_containsFruit": false
   },
@@ -148,7 +148,7 @@
     "bread_id": 17,
     "recipe_ingredients": "2 packages (1/4 ounce each) active dry yeast, 1-1/3 cups warm water (110° to 115°)  divided, 1 cup warm mashed potatoes (without added milk and butter), 2/3 cup sugar, 2/3 cup shortening, 2 large eggs, room temperature, 2-1/2 teaspoons salt, 6 to 6-1/2 cups all-purpose flour",
     "recipe_description": "In a small bowl, dissolve yeast in 2/3 cup warm water. In a large bowl, combine mashed potatoes, sugar, shortening, eggs, salt, remaining 2/3 cup water, yeast mixture and 2 cups flour; beat until smooth. Stir in enough remaining flour to form a soft dough.\nDo not knead. Shape into a ball; place in a greased bowl, turning once to grease the top. Cover and let rise in a warm place until doubled, about 1 hour.\nPunch down dough; divide into thirds. Divide and shape 1 portion into 15 balls; place in a greased 9-in. round baking pan. Cover with a kitchen towel. Repeat with remaining dough. Let rise in a warm place until doubled, about 30 minutes. Preheat oven to 375°.\nBake rolls until golden brown, 20-25 minutes. Remove from pans to wire racks. Serve warm.",
-    "recipe_nut-free": true,
+    "recipe_nut_free": true,
     "recipe_containsEgg": true,
     "recipe_containsFruit": false
   },
@@ -157,7 +157,7 @@
     "bread_id": 18,
     "recipe_ingredients": "1-3/4 cups all-purpose flour,1-1/2 cups sugar,1 teaspoon baking soda,1/2 teaspoon salt,2 large eggs, room temperature,2 medium ripe bananas, mashed (1 cup),1/2 cup canola oil,1/4 cup plus 1 tablespoon buttermilk,1 teaspoon vanilla extract,1 cup chopped walnuts, optional",
     "recipe_description": "Preheat oven to 350°. In a large bowl, stir together flour, sugar, baking soda and salt. In another bowl, combine the eggs, bananas, oil, buttermilk and vanilla; add to flour mixture, stirring just until combined. If desired, fold in nuts.\nPour into a greased or parchment-lined 9x5-in. loaf pan. Bake until a toothpick comes out clean, 1-1/4 to 1-1/2 hours. Cool in pan for 15 minutes before removing to a wire rack.",
-    "recipe_nut-free": false,
+    "recipe_nut_free": false,
     "recipe_containsEgg": true,
     "recipe_containsFruit": true
   },
@@ -166,7 +166,7 @@
     "bread_id": 19,
     "recipe_ingredients": "2 packages (1/4 ounce each) active dry yeast,1/3 cup warm water (110° to 115°),2 cups warm 2% milk (110° to 115°),1 cup shortening,1 cup sugar,6 large eggs, room temperature,2 teaspoon salt,9 cups all-purpose flour, divided,3 to 4 tablespoons butter, melted",
     "recipe_description": "In a large bowl, dissolve yeast in water. Add milk, shortening, sugar, eggs, salt and 4 cups flour; beat 3 minutes or until smooth. Add enough remaining flour to form a soft dough.\nTurn onto a floured surface; knead lightly. Place in a greased bowl, turning once to grease top. Cover and let rise in a warm place until doubled, about 2 hours.\nPunch dough down; divide into 4 equal parts. Roll each into a 9-in. circle; brush with butter. Cut each circle into 8 pie-shaped wedges; roll up each wedge from wide edge to tip of dough and pinch to seal.\nPlace rolls with tip down on baking sheets; freeze. Transfer to airtight freezer containers; freeze up to 4 weeks.\nTo use frozen rolls: Arrange frozen rolls 2 in. apart on greased baking sheets. Cover with lightly greased plastic wrap; thaw in the refrigerator overnight. To bake, preheat oven to 375°. Let rolls rise in a warm place until doubled, about 1 hour. Bake until golden brown, 12-15 minutes. Serve warm.",
-    "recipe_nut-free": true,
+    "recipe_nut_free": true,
     "recipe_containsEgg": true,
     "recipe_containsFruit": false
   },
@@ -175,7 +175,7 @@
     "bread_id": 20,
     "recipe_ingredients": "1 package (1/4 ounce) active dry yeast\n1/3 cup plus 1 teaspoon sugar, divided\n1-1/2 cups warm water (110° to 115°), divided\n1/2 cup butter, melted\n2 large eggs, room temperature\n1/4 cup instant nonfat dry milk powder\n1-1/4 teaspoons salt\n5-1/2 to 6 cups all-purpose flour",
     "recipe_description": "In a large bowl, dissolve yeast and 1 teaspoon sugar in 1/2 cup water. Add the butter, eggs, milk powder, salt, 3 cups flour, and the remaining sugar and water. Beat on medium speed for 3 minutes. Stir in enough remaining flour to form a soft dough.\nTurn onto a floured surface; knead until smooth and elastic, 6-8 minutes. Place in a greased bowl, turning once to grease top. Cover and let rise in a warm place until doubled, about 1-1/2 hours.\nPunch dough down. Divide into 27 pieces; shape into balls. Place 18 balls in a greased 13x9-in. baking pan and remaining balls in a greased 9-in. square baking pan. Cover and let rise until doubled, about 45 minutes.\nPreheat oven to 375°. Bake rolls until golden brown, 17-20 minutes. Cool on wire racks.",
-    "recipe_nut-free": true,
+    "recipe_nut_free": true,
     "recipe_containsEgg": true,
     "recipe_containsFruit": false
   }
