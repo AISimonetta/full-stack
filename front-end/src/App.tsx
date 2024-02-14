@@ -1,33 +1,39 @@
 
+import { useState, FormEvent, useEffect } from 'react';
 import './App.css'
 import Header from './Components/Header/Header'
 import Navbar from './Components/Navbar/Navbar';
-import { MainSection } from './Components/MainSection/MainSection';
-import { useState, FormEvent } from 'react';
+import MainSection from './Components/MainSection/MainSection';
+import { Bread } from './Type/BreadType';
 
 
 function App() {
   const [searchName, setSearchName] = useState<string>('');
-  const [isNutFree, setIsNutFree] = useState<boolean>(false);
-  const [containsEgg, setContainsEgg] = useState<boolean>(false);
-  const [containsFruit, setContainsFruit] = useState<boolean>(false);
+  const [breads, setBreads] = useState<Bread[]>([]);
+
+  const getBreads = async () =>{
+    let url = "http://localhost:8080/breads";
+    const response = await fetch(url);
+    const data = await response.json();
+        setBreads(data);
+  }
+  useEffect(() => {
+    getBreads();
+  }, []);
+  useEffect(() => {
+    console.log(breads);
+  }, [breads]);
 
   const handleInput = (event: FormEvent<HTMLInputElement>) => {
-    // const { name, checked, value } = event.currentTarget;
-    // switch (name) {
-    //   case 'searchName':
-    //     break;
-    //   case '':
-    //     break;
-    //   case '':
-    //     break;
-    //   case '
-    //     set
-    //     break;
-    //   default:
-    //     break;
-    // }
+    setSearchName(event.currentTarget.value);
+    console.log(searchName);
   };
+
+  const filteredBreads = breads.filter((bread) =>
+  bread.bread_title && bread.bread_title.toLowerCase().includes(searchName.toLowerCase())
+);
+console.log(filteredBreads);
+
 
   return (
     <div className='wholePage'>
@@ -37,13 +43,10 @@ function App() {
       <div className='navbar'>
         <Navbar searchName={searchName}
                 handleInput={handleInput}
-                containsEgg={containsEgg}
-                containsFruit={containsFruit}
-                isNutFree={isNutFree}
                 />
       </div>
       <div className='mainSection'>
-        <MainSection/>
+        <MainSection filteredBreads={filteredBreads}/>
       </div>
     </div>
   )
