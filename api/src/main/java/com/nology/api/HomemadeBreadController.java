@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/recipes")
+@RequestMapping("/homemade_bread")
 public class HomemadeBreadController {
 
     private HomemadeBreadService homemadeBreadService;
@@ -19,7 +19,7 @@ public class HomemadeBreadController {
 
     //create
 //    @PostMapping("/")
-//    public FilmData (@RequestBody  ){
+//    public  (@RequestBody  ){
 //        .();
 //        return ;
 //    }
@@ -30,6 +30,7 @@ public class HomemadeBreadController {
 //        return "";
 //    }
     //update
+
     //delete
 
 
