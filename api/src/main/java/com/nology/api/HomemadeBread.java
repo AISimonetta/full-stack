@@ -8,7 +8,7 @@ import java.util.List;
 public interface HomemadeBread {
     List<Bread> getAllBreads();
 
-    List<Bread> getFilteredBreads(String breadTitle, boolean isNutFree, boolean containsEggs, boolean containsFruit);
+    List<Bread> getFilteredBreads(String breadTitle);
 
     Bread addBread(Bread bread);
 

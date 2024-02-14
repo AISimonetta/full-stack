@@ -15,7 +15,7 @@ public class Bread {
 
     private String breadDescription;
 
-    private String breadImageUrl;
+    private String breadImageURL;
 
     public Long getBreadId() {
         return breadId;
@@ -41,12 +41,12 @@ public class Bread {
         this.breadDescription = breadDescription;
     }
 
-    public String getBreadImageUrl() {
-        return breadImageUrl;
+    public String getBreadImageURL() {
+        return breadImageURL;
     }
 
-    public void setBreadImageUrl(String breadImageUrl) {
-        this.breadImageUrl = breadImageUrl;
+    public void setBreadImageURL(String breadImageURL) {
+        this.breadImageURL = breadImageURL;
     }
 
     @Override
@@ -55,7 +55,7 @@ public class Bread {
                 "breadId=" + breadId +
                 ", breadTitle='" + breadTitle + '\'' +
                 ", breadDescription='" + breadDescription + '\'' +
-                ", breadImageUrl='" + breadImageUrl + '\'' +
+                ", breadImageUrl='" + breadImageURL + '\'' +
                 '}';
     }
 }
