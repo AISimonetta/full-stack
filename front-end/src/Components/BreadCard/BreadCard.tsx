@@ -16,10 +16,16 @@ const BreadCard = ({ breadId, breadTitle, breadDescription, breadImageURL, }: Br
   });
   return (
     <div className="breadCard__container">
-      <h1  className="breadCard__container--title"> {breadTitle}</h1>
-      <img   className="breadCard__container--image"src={breadImageURL} alt={`Bread: ${breadTitle}`} />
+      <div>
+        <h1  className="breadCard__container--title"> {breadTitle}</h1>
+      </div>
+      <div>
+        <img   className="breadCard__container--image"src={breadImageURL} alt={`Bread: ${breadTitle}`} />
+      </div>
+      <div>
       <p  className="breadCard__container--id">{breadId}</p>
-      <h2  className="breadCard__container--description">{breadDescription}</h2>
+        <h2  className="breadCard__container--description">{breadDescription}</h2>
+      </div>
       <div className="breadCard__container--interactive">
         <a  className="breadCard__container--link" href="#">Find out more..</a>
         <button  className="breadCard__container--btn">Edit</button>

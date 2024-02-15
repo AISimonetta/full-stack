@@ -29,12 +29,27 @@ function App() {
     setSearchName(event.currentTarget.value.toLowerCase());
   };
 
-  let filteredBreads = breads;
+  let filteredBreads: Bread[] = breads;
   if (searchName) {
-    filteredBreads = breads.filter((bread) =>
-      bread.breadTitle.includes(searchName)
-    );
+    filteredBreads = breads.filter((bread) => {
+      return (
+        bread &&
+        bread.breadTitle &&
+        bread.breadTitle.toLowerCase().includes(searchName)
+      );
+    });
   }
+
+
+//   let filteredBreads = breads;
+//   // if (searchName) {
+//   //   filteredBreads = breads.filter((bread) =>
+//   //     bread.breadTitle.includes(searchName)
+//   //   );
+//   // }
+//   filteredBreads = breads.filter((bread) =>
+//   bread.breadTitle.toLowerCase().includes(searchName)
+// );
 
   return (
     <div className='wholePage'>

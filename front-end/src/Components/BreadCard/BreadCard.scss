@@ -5,17 +5,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     width: 250px;
     box-shadow: 10px 5px 5px rgba(128, 128, 128, 0.286); ;
     background-color: $clr-light-grey;
     margin: 10px 10px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    height: 320px;
 
     &--title{
         font-size: 16px;
     }
     &--image {
-        width: 180px;
+        width: 230px;
+        height: 200px;
         border-radius: 10px;
         padding: 0 10px;
     }
@@ -26,9 +29,15 @@
 
     &--description {
         font-family: "sen";
-        font-weight: lighter;
-        font-size: 8px;
-        padding: 0 10px;
+    font-weight: lighter;
+    font-size: 8px;
+    padding: 0 10px;
+    width: 230px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+
     }
 
     &--interactive {
@@ -40,6 +49,7 @@
     &--link {
         color: $clr-dark-blue;
         margin: 0 20px;
+        font-size: 12px;
     }
 
     &--btn {
@@ -48,10 +58,78 @@
         border: none;
         width: 60px;
         height: 20px;
-        font-size: 10px;
+        font-size: 8px;
         font-family: "sen";
         box-shadow: 5px 5px 5px $clr-light-blue;
         margin: 0 20px;
         background-color: $clr-white;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .breadCard__container {
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 300px;
+        box-shadow: 10px 5px 5px rgba(128, 128, 128, 0.286); ;
+        background-color: $clr-light-grey;
+        margin: 10px 0;
+        padding-bottom: 20px;
+        height: 370px;
+    
+        &--title{
+            font-size: 18px;
+        }
+        &--image {
+            width: 280px;
+            height: 240px;
+            border-radius: 10px;
+            padding: 0 10px;
+        }
+    
+        &--id{
+            display: none;
+        }
+    
+        &--description {
+        font-family: "sen";
+        font-weight: lighter;
+        font-size: 12px;
+        padding: 0 10px;
+        width: 230px;
+        display: -webkit-box;
+        -webkit-line-clamp: 3; 
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    
+        }
+    
+        &--interactive {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    
+        &--link {
+            color: $clr-dark-blue;
+            margin: 0 20px;
+            font-size: 16px;
+        }
+        
+        &--btn {
+            border-radius: 5px;
+            margin: 10px 10px;
+            border: none;
+            width: 60px;
+            height: 25px;
+            font-size: 12px;
+            font-family: "sen";
+            box-shadow: 5px 5px 5px $clr-light-blue;
+            margin: 0 20px;
+            background-color: $clr-white;
+        }
     }
 }
