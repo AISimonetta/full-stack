@@ -8,6 +8,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
+
 @Service
 public class HomemadeBreadService {
     @Autowired
@@ -17,6 +19,10 @@ public class HomemadeBreadService {
 
     public List<Bread> getAllBreads() {
         return breadRepository.findAll();
+    }
+
+    public Optional<Bread> getBreadById(Long breadId) {
+        return breadRepository.findById(breadId);
     }
 
     public List<Bread> getFilteredBreads(String breadTitle) {
@@ -34,10 +40,6 @@ public class HomemadeBreadService {
         return breadRepository.save(bread);
     }
 
-    private Bread getBreadById(Long breadId) {
-        return breadRepository.findById(breadId)
-                .orElseThrow(() -> new NotFoundException("Bread not found"));
-    }
 
     public List<Recipe> getAllRecipes() {
         return recipeRepository.findAll();
