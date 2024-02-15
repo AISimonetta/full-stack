@@ -1,5 +1,18 @@
 @use "../../styles/variables" as *;
 .mainSection__container {
     height: 100vh;
-    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .mainSection__container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 10px;
+    }
 }

@@ -11,10 +11,4 @@ body {
 .wholePage {
   display: flex;
   flex-direction: column;
-  padding: 10px 10px;
-}
-
-
-.mainSection {
-  background-color: lightblue;
 }
