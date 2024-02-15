@@ -40,7 +40,7 @@ export const FindOutMore = () => {
   return (
     <div className="findOutMore__container">
       <div>
-        <h1 className="findOutMore__container__container--title">{bread.breadTitle}</h1>
+        <h1 className="findOutMore__container--title">{bread.breadTitle}</h1>
       </div>
       <div>
         <img className="findOutMore__container--image" src={bread.breadImageURL} alt={`Bread: ${bread.breadTitle}`} />
