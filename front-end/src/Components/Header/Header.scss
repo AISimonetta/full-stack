@@ -9,7 +9,7 @@
     color:$clr-black;
     height: 60px;
     margin-bottom: 15px;
-    padding-top: 15px;
+    padding-top: 20px;
 
     &__brandName {
         font-size: 20px;
@@ -57,13 +57,13 @@
             justify-content: space-evenly;
             font-family: "sen";
             width: 100vw;
-            margin-bottom: 40px;
+            margin-bottom: 60px;
         }
 
         a {
             color: $clr-black;
             text-decoration: none;
-            font-size: 16px;
+            font-size: 14px;
         }
     }
 }

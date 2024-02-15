@@ -11,14 +11,5 @@ body {
 .wholePage {
   display: flex;
   flex-direction: column;
-  padding: 10px 10px;
-}
-
-
-.navbar {
-  background-color: blue;
-}
-
-.mainSection {
-  background-color: lightblue;
+  align-items: center;
 }

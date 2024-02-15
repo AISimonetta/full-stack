@@ -1,7 +1,6 @@
 import { FormEventHandler } from "react";
 import "./Navbar.scss"
 import SearchBox from "../SearchBox/SearchBox"
-import { FilterRecipes } from "../FilterRecipes/FilterRecipes"
 
 type NavbarProps = {
   searchName: string;
@@ -9,9 +8,13 @@ type NavbarProps = {
 };
 const Navbar = ({searchName,handleInput}: NavbarProps) => {
   return (
-    <div>
-       <SearchBox searchName={searchName} handleInput={handleInput} />
-      <FilterRecipes/>
+    <div className="navbar__container">
+        <div className="navbar__title">
+          <h2>Filter : </h2>
+        </div>
+        <div>
+          <SearchBox searchName={searchName} handleInput={handleInput} />
+        </div>
     </div>
   )
 }
