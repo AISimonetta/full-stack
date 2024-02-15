@@ -58,7 +58,7 @@ function App() {
         <Routes>
           <Route path="/find-out-more/:id" 
             element={<FindOutMore />} />
-          <Route path="/add-recipe/:id" element={<AddYourRecipe />} />
+          <Route path="/add-recipe" element={<AddYourRecipe />} />
           <Route path="/" element={<div className='mainSection'><MainSection filteredBreads={filteredBreads} /></div>} />
         </Routes>
       </div>

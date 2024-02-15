@@ -49,8 +49,8 @@ export const FindOutMore = () => {
         <p className="findOutMore__container--id">{bread.breadId}</p>
         <p className="findOutMore__container--recipeId">{recipe.recipeId}</p>
         <h2 className="findOutMore__container--description">{bread.breadDescription}</h2>
-        <h3 className="findOutMore__container--ingredients">Ingredients: {recipe.recipeIngredients}</h3>
-        <p className="findOutMore__container--recipeDescription">{recipe.recipeDescription}</p>
+        <h3 className="findOutMore__container--ingredients">INGREDIENTS : {recipe.recipeIngredients}</h3>
+        <p className="findOutMore__container--recipeDescription">RECIPE :{recipe.recipeDescription}</p>
       </div>
       <div className="findOutMore__container--interactive">
         <Link to="/" className="findOutMore__container--btn">
