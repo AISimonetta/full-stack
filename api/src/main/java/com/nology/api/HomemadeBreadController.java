@@ -3,14 +3,13 @@ package com.nology.api;
 import com.nology.api.models.Bread;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import com.nology.api.NotFoundException;
 
 
 
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "http://localhost:5175")
 public class HomemadeBreadController {
 
     private final HomemadeBreadService homemadeBreadService;
@@ -44,9 +43,16 @@ public class HomemadeBreadController {
     }
 
     //update
-
+//    @PutMapping("/updateBread/{breadId}")
+//    public Bread updateBread(@PathVariable Long breadId, @RequestBody Bread updatedBread) {
+//        return homemadeBreadService.updateBread(breadId, updatedBread);
+//    }
 
     //delete
-
+//    @DeleteMapping("/deleteBread/{breadId}")
+//    public String deleteBread(@PathVariable Long breadId) {
+//        homemadeBreadService.deleteBread(breadId);
+//        return "Bread recipe has been deleted successfully.";
+//    }
 
 }

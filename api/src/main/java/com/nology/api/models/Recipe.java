@@ -24,7 +24,7 @@ public class Recipe {
     private boolean recipeContainsFruit;
 
     @ManyToOne
-    @JoinColumn(name = "bread_id")
+    @JoinColumn(name = "bread_id", insertable = false, updatable = false)
     private Bread bread;
 
     public Long getRecipeId() {

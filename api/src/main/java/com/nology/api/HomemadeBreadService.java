@@ -21,13 +21,29 @@ public class HomemadeBreadService {
                 breadRepository.findAll();
 
         if (filteredBreads.isEmpty()) {
-            throw new NotFoundException("No bread found");
+            throw new NotFoundException("Bread not found");
         }
-
         return filteredBreads;
     }
 
     public Bread addBread(Bread bread) {
         return breadRepository.save(bread);
+    }
+
+    public Bread updateBread(Long breadId, Bread updatedBread) {
+        Bread existingBread = getBreadById(breadId);
+        existingBread.setBreadTitle(updatedBread.getBreadTitle());
+        existingBread.setBreadDescription(updatedBread.getBreadDescription());
+        existingBread.setBreadImageURL(updatedBread.getBreadImageURL());
+        return breadRepository.save(existingBread);
+    }
+
+    private Bread getBreadById(Long breadId) {
+        return breadRepository.findById(breadId)
+                .orElseThrow(() -> new NotFoundException("Bread not found"));
+    }
+
+    public void deleteBread(Long breadId) {
+        breadRepository.deleteById(breadId);
     }
 }
