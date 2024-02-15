@@ -53,16 +53,4 @@ public class HomemadeBreadService {
         return recipeRepository.findByBread_BreadId(breadId);
     }
 
-    //    public Bread updateBread(Long breadId, Bread updatedBread) {
-//        Bread existingBread = getBreadById(breadId);
-//        existingBread.setBreadTitle(updatedBread.getBreadTitle());
-//        existingBread.setBreadDescription(updatedBread.getBreadDescription());
-//        existingBread.setBreadImageURL(updatedBread.getBreadImageURL());
-//        return breadRepository.save(existingBread);
-//    }
-
-    //    public void deleteBread(Long breadId) {
-//        breadRepository.deleteById(breadId);
-//    }
-
 }

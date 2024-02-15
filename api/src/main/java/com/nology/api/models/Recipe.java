@@ -16,11 +16,17 @@ public class Recipe {
 
     private String recipeDescription;
 
-
-
     @ManyToOne
     @JoinColumn(name = "bread_id", insertable = false, updatable = false)
     private Bread bread;
+
+    public Bread getBread() {
+        return bread;
+    }
+
+    public void setBread(Bread bread) {
+        this.bread = bread;
+    }
 
     public Long getRecipeId() {
         return recipeId;
@@ -45,7 +51,5 @@ public class Recipe {
     public void setRecipeDescription(String recipeDescription) {
         this.recipeDescription = recipeDescription;
     }
-
-
 
 }

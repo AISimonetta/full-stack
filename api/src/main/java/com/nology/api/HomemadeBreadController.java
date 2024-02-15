@@ -4,13 +4,12 @@ import com.nology.api.models.Bread;
 import com.nology.api.models.Recipe;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.List;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin(origins = "*")
-//@CrossOrigin(origins = "http://localhost:5175")
+//@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "http://localhost:5174")
 public class HomemadeBreadController {
 
     private final HomemadeBreadService homemadeBreadService;
@@ -42,7 +41,6 @@ public class HomemadeBreadController {
         return homemadeBreadService.getAllBreads();
     }
 
-///to have same endpont as recipe by id
     @GetMapping("/breads/{breadId}")
     public Optional<Bread> getBreadById(@PathVariable Long breadId) {
         return homemadeBreadService.getBreadById(breadId);
