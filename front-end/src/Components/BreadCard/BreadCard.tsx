@@ -1,4 +1,6 @@
 import "./BreadCard.scss"
+import { Link } from 'react-router-dom';
+
 
 type BreadCardProps = {
   breadId: number;
@@ -8,12 +10,7 @@ type BreadCardProps = {
 };
 
 const BreadCard = ({ breadId, breadTitle, breadDescription, breadImageURL, }: BreadCardProps ) => {
-  console.log("BreadCard props:", {
-    breadId,
-    breadTitle,
-    breadDescription,
-    breadImageURL,
-  });
+
   return (
     <div className="breadCard__container">
       <div>
@@ -27,8 +24,7 @@ const BreadCard = ({ breadId, breadTitle, breadDescription, breadImageURL, }: Br
         <h2  className="breadCard__container--description">{breadDescription}</h2>
       </div>
       <div className="breadCard__container--interactive">
-        <a  className="breadCard__container--link" href="#">Find out more..</a>
-        <button  className="breadCard__container--btn">Edit</button>
+        <Link to={`/find-out-more/${breadId}`}   className="breadCard__container--link">Find out more..</Link>
       </div>
     </div>
   );

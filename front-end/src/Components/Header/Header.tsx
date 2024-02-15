@@ -1,5 +1,5 @@
 import "./Header.scss"
-
+import { Link } from 'react-router-dom';
 
 
 const header = () => {
@@ -13,7 +13,7 @@ const header = () => {
           <a className="header__recipes" href="#">| Recipes |</a>
         </div> */}
         <div>
-          <a className="header__addYourRecipes" href="#">| Add your recipe |</a>
+          <Link to={`/add-recipe`}  className="header__addYourRecipes">| Add your recipe |</Link>
         </div>
       </div>
     </div>
