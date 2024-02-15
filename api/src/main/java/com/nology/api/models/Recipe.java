@@ -11,17 +11,12 @@ public class Recipe {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long recipeId;
 
-    private String recipeTitle;
 
     private String recipeIngredients;
 
     private String recipeDescription;
 
-    private boolean recipeNutFree;
 
-    private boolean recipeContainsEgg;
-
-    private boolean recipeContainsFruit;
 
     @ManyToOne
     @JoinColumn(name = "bread_id", insertable = false, updatable = false)
@@ -33,14 +28,6 @@ public class Recipe {
 
     public void setRecipeId(Long recipeId) {
         this.recipeId = recipeId;
-    }
-
-    public String getRecipeTitle() {
-        return recipeTitle;
-    }
-
-    public void setRecipeTitle(String recipeTitle) {
-        this.recipeTitle = recipeTitle;
     }
 
     public String getRecipeIngredients() {
@@ -59,29 +46,6 @@ public class Recipe {
         this.recipeDescription = recipeDescription;
     }
 
-    public boolean isRecipeNutFree() {
-        return recipeNutFree;
-    }
-
-    public void setRecipeNutFree(boolean recipeNutFree) {
-        this.recipeNutFree = recipeNutFree;
-    }
-
-    public boolean isRecipeContainsEgg() {
-        return recipeContainsEgg;
-    }
-
-    public void setRecipeContainsEgg(boolean recipeContainsEgg) {
-        this.recipeContainsEgg = recipeContainsEgg;
-    }
-
-    public boolean isRecipeContainsFruit() {
-        return recipeContainsFruit;
-    }
-
-    public void setRecipeContainsFruit(boolean recipeContainsFruit) {
-        this.recipeContainsFruit = recipeContainsFruit;
-    }
 
 
 }
