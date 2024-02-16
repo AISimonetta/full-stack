@@ -16,7 +16,7 @@ public class Recipe {
 
     private String recipeDescription;
 
-    @ManyToOne
+    @OneToOne
     @JoinColumn(name = "bread_id", insertable = false, updatable = false)
     private Bread bread;
 

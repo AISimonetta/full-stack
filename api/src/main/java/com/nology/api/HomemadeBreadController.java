@@ -9,7 +9,7 @@ import java.util.Optional;
 
 @RestController
 //@CrossOrigin(origins = "*")
-@CrossOrigin(origins = "http://localhost:5174")
+@CrossOrigin(origins = "http://localhost:5173")
 public class HomemadeBreadController {
 
     private final HomemadeBreadService homemadeBreadService;
