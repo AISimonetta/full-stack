@@ -1,13 +1,15 @@
 import { Link } from 'react-router-dom';
-import { useState,ChangeEvent, FormEvent, useEffect } from 'react';
+import { useState, ChangeEvent, FormEvent } from 'react';
 import './AddYourRecipe.scss';
 
 const AddYourRecipe = () => {
-  const [formData, setFormData] = useState({
+  const initialFormData = {
     breadTitle: '',
     breadDescription: '',
     breadImageURL: '',
-  });
+  };
+
+  const [formData, setFormData] = useState(initialFormData);
 
   const handleChange = (e: ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -36,37 +38,27 @@ const AddYourRecipe = () => {
 
       if (responseRecipe.ok) {
         alert("Bread added successfully!");
-        
-        //not working
-        setFormData({
-          breadTitle: '',
-          breadDescription: '',
-          breadImageURL: '',
-        });
+        setFormData(initialFormData);
       }
     } catch (error) {
-      console.error("Error adding bread :", error);
+      console.error("Error adding bread:", error);
     }
   };
-
-  useEffect(() => {
-    handleSubmit;
-  }, []); 
 
   return (
     <div className="addRecipe__container">
       <form onSubmit={handleSubmit}>
         <div className="addRecipe__container--title">
           <label htmlFor="breadTitle">Title:</label>
-          <input placeholder='Argentinean Chipa' type="text" id="breadTitle" name="breadTitle" onChange={handleChange} />
+          <input placeholder='Argentinean Chipa' type="text" id="breadTitle" name="breadTitle" value={formData.breadTitle} onChange={handleChange} />
         </div>
         <div className="addRecipe__container--shortDescription">
           <label htmlFor="breadDescription">Short Bread description:</label>
-          <input placeholder='Delicious salted and cheesy bread...' type="text" id="breadDescription" name="breadDescription" onChange={handleChange} />
+          <input placeholder='Delicious salted and cheesy bread...' type="text" id="breadDescription" name="breadDescription" value={formData.breadDescription} onChange={handleChange} />
         </div>
         <div className="addRecipe__container--imageURL">
           <label htmlFor="breadImageURL">Paste image URL:</label>
-          <input placeholder='https://media.istockphoto.com/id/1584774410/photo/bread-over-brown.jpg' type="text" id="breadImageURL" name="breadImageURL" onChange={handleChange} />
+          <input placeholder='https://media.istockphoto.com/id/1584774410/photo/bread-over-brown.jpg' type="text" id="breadImageURL" name="breadImageURL" value={formData.breadImageURL} onChange={handleChange} />
         </div>
         <div className="addRecipe__container--btn">
           <Link to="/">
