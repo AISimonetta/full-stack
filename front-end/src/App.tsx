@@ -1,4 +1,4 @@
-import { useState, FormEvent, useEffect } from 'react';
+import { useState, FormEvent, useEffect, MouseEventHandler } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './Components/Header/Header';
@@ -43,6 +43,11 @@ function App() {
     });
   }
 
+  const handleReset: MouseEventHandler<HTMLButtonElement> = () => {
+    setSearchName('');
+
+  };
+
   return (
     <Router>
       <div className='wholePage'>
@@ -53,6 +58,7 @@ function App() {
             <Navbar
               searchName={searchName}
               handleInput={handleInput}
+              handleReset={handleReset}
             />
           </div>
         <Routes>

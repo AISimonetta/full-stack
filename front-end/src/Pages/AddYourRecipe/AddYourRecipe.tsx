@@ -49,15 +49,15 @@ const AddYourRecipe = () => {
     <div className="addRecipe__container">
       <form onSubmit={handleSubmit}>
         <div className="addRecipe__container--title">
-          <label htmlFor="breadTitle">Title:</label>
+          <label htmlFor="breadTitle">Title : </label>
           <input placeholder='Argentinean Chipa' type="text" id="breadTitle" name="breadTitle" value={formData.breadTitle} onChange={handleChange} />
         </div>
         <div className="addRecipe__container--shortDescription">
-          <label htmlFor="breadDescription">Short Bread description:</label>
+          <label htmlFor="breadDescription">Short Bread description : </label>
           <input placeholder='Delicious salted and cheesy bread...' type="text" id="breadDescription" name="breadDescription" value={formData.breadDescription} onChange={handleChange} />
         </div>
         <div className="addRecipe__container--imageURL">
-          <label htmlFor="breadImageURL">Paste image URL:</label>
+          <label htmlFor="breadImageURL">Paste image URL : </label>
           <input placeholder='https://media.istockphoto.com/id/1584774410/photo/bread-over-brown.jpg' type="text" id="breadImageURL" name="breadImageURL" value={formData.breadImageURL} onChange={handleChange} />
         </div>
         <div className="addRecipe__container--btn">
