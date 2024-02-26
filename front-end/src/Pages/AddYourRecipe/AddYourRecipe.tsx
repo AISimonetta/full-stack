@@ -60,6 +60,7 @@ const AddYourRecipe = () => {
           <label htmlFor="breadImageURL">Paste image URL : </label>
           <input placeholder='https://media.istockphoto.com/id/1584774410/photo/bread-over-brown.jpg' type="text" id="breadImageURL" name="breadImageURL" value={formData.breadImageURL} onChange={handleChange} />
         </div>
+
         <div className="addRecipe__container--btn">
           <Link to="/">
             <button type="button">Home</button>
