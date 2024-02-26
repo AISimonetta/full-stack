@@ -1,4 +1,5 @@
-✦ Full Stack Project ✦
+► Full Stack Project ✦
+---
 
 This was the final project during my _nology Full Stack training program. I created a website where you can browse for bread recipes to bake at home. The goal was to solidify all the knowledge acquired during our training and integrate back-end development with the front end.
 
@@ -16,15 +17,19 @@ In this project, you can:
 
  • Create new bread recipes.
 
-✦ Technologies Used:
+► Technologies Used:
+---
 
 | React | SCSS | BEM Methodology | TypeScript | Java | Spring Boot | MySQL
 
-✦ Portfolio Project Preview: 
+► Portfolio Project Preview: 
+---
 
-![Screenshot 2024-02-16 at 09 36 21](https://github.com/AISimonetta/full-stack/assets/122782260/f34dc232-7d0a-42c6-8276-23908ebf7ea4)
+![Screenshot 2024-02-26 at 11 56 54](https://github.com/AISimonetta/full-stack/assets/122782260/b35d5e60-2ad0-4eaf-8c61-59ed406b8143)
 
-✦ Setup Instructions:
+
+► Setup Instructions:
+---
 
 To explore this project, follow these instructions:
 
@@ -33,6 +38,10 @@ To explore this project, follow these instructions:
 
 Ensure you have the necessary dependencies installed and configurations set up.
 
-✦ Contact:
+► Contact:
+---
 
 For any inquiries or feedback, please get in touch.
+
+
+
