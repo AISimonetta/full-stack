@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="header__brandName">
-        <p>Nona's Homemade Bread</p>
+        <p className="header__title">Nona's Homemade Bread</p>
       </div>
       <div className="header__links">
         <div>

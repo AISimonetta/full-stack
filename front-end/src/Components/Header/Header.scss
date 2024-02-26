@@ -7,16 +7,21 @@
     justify-content: space-evenly;
     background-color: $clr-off-white;
     color:$clr-black;
-    height: 60px;
-    margin-bottom: 15px;
+    height: 80px;
     padding-top: 20px;
+    margin: 5px 0;
 
     &__brandName {
         font-size: 20px;
         font-family: "Caveat";
         margin: 0 0;
         letter-spacing: -1px;
-        padding-top: 10px;
+        padding-top: 5px 10px;
+    }
+
+    p {
+        border: 1px solid black;
+        padding: 10px 10px;
     }
 
     &__links {
@@ -25,13 +30,14 @@
         justify-content: space-evenly;
         font-family: "sen";
         width: 100vw;
-        margin-bottom: 25px;
+        margin-bottom: 50px;
     }
 
     a {
         color: $clr-black;
         text-decoration: none;
         font-size: 10px;
+        padding-bottom: 10px;
     }
 }
 
@@ -39,8 +45,8 @@
     .header {
         width: 100vw;
         display: flex;
-        justify-content: space-around;
-        height: 60px;
+        justify-content: space-evenly;
+        height: 100px;
         margin-top: 10px;
 
         &__brandName {
@@ -48,7 +54,6 @@
             font-family: "Caveat";
             margin: 0 0;
             letter-spacing: -1px;
-            padding-top: 10px;
         }
 
         &__links {

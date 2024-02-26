@@ -10,17 +10,17 @@
     text-align: center;
     padding-bottom: 100px;
     padding: 0 10px;
-    margin: 30px 0;
+
 
     &--title{
         font-size: 16px;
         text-align: center;
     }
+
     &--image {
         width: 250px;
         height: 180px;
-        border-radius: 10px;
-        padding: 0 10px;
+        border-radius: 15px;
     }
 
     &--recipeId, &--id {
@@ -75,11 +75,21 @@
         font-size: 24px;
         text-align: center;
     }
+
+    &--group {
+        display: flex;
+        width: 60vw;
+        margin: 5px 5px;
+        padding: 20px 20px;
+        align-items: center;
+        border: 1px solid black;
+        box-shadow: 10px 5px 5px rgba(128, 128, 128, 0.286); ;
+
+    }
     &--image {
         width: 300px;
         height: 250px;
-        border-radius: 10px;
-        padding: 0 10px;
+        border-radius: 15px;
     }
 
     &--recipeId, &--id {

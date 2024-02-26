@@ -42,13 +42,13 @@ export const FindOutMore = () => {
       <div>
         <h1 className="findOutMore__container--title">{bread.breadTitle}</h1>
       </div>
-      <div>
+      <div className='findOutMore__container--group'>
         <img className="findOutMore__container--image" src={bread.breadImageURL} alt={`Bread: ${bread.breadTitle}`} />
-      </div>
-      <div>
         <p className="findOutMore__container--id">{bread.breadId}</p>
         <p className="findOutMore__container--recipeId">{recipe.recipeId}</p>
         <h2 className="findOutMore__container--description">{bread.breadDescription}</h2>
+      </div>
+      <div>
         <h3 className="findOutMore__container--ingredients">INGREDIENTS : {recipe.recipeIngredients}</h3>
         <p className="findOutMore__container--recipeDescription">RECIPE :{recipe.recipeDescription}</p>
       </div>
