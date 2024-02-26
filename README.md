@@ -1,4 +1,4 @@
-► Full Stack Project ✦
+► Full Stack Project 
 ---
 
 This was the final project during my _nology Full Stack training program. I created a website where you can browse for bread recipes to bake at home. The goal was to solidify all the knowledge acquired during our training and integrate back-end development with the front end.
